@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    height: 90vh;
+    flex-wrap: wrap;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: lightcoral;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+#box2{
+    background-color: lightblue;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+#box3{
+    background-color: lightgreen;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+#box4{
+    background-color: lightpink;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+@keyframes slideLeft{
+    from{transform: translateX(100%);}
+}
