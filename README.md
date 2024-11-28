@@ -1,5 +1,7 @@
-# Repository di Francesco petrini
-# html_css ---> TPSI
-#   Gli esercizi sono numerati come su classroom
-# java ---> INFORMATICA
-#   Gli esercizi sono chiamati come su classroom
+# Repository di Francesco Petrini
+
+## html_css ---> TPSI
+Gli esercizi sono numerati come su Classroom.
+
+## java ---> INFORMATICA
+Gli esercizi sono chiamati come su Classroom.
