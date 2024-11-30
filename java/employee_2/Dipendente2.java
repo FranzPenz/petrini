@@ -1,4 +1,4 @@
-package informatica.java.employee_2;
+package java.employee_2;
 
 public class Dipendente2 {
     private String nome;

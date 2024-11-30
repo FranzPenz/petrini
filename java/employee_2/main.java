@@ -1,4 +1,4 @@
-package informatica.java.employee_2;
+package java.employee_2;
 import java.util.Scanner;
 
 public class main {
