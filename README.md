@@ -5,3 +5,6 @@ Gli esercizi sono numerati come su Classroom.
 
 ## java ---> INFORMATICA
 Gli esercizi sono chiamati come su Classroom.
+
+## verifiche ---> TPSI/INFO
+Verifiche di laboratorio
