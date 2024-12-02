@@ -1,7 +1,7 @@
 package java.ereditarietà;
 
 public class main {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Lavoratore capo = new Capo ("Francesco", "Bagnaia");
         Fattorino [] fattorini = {
             new Fattorino ("Marc", "Marquez"),
