@@ -2,7 +2,7 @@ package java.ereditarietà;
 
 public class main {
         public static void main(String[] args) {
-        Lavoratore capo = new Capo ("Francesco", "Bagnaia");
+        Lavoratore capo = new Capo ("Francesco", "Bagnaia");  //IN QUESTO PUNTO NON FUNZIONA, NON SONO RIUSCITO A CAPIRE IL PROBLEMA
         Fattorino [] fattorini = {
             new Fattorino ("Marc", "Marquez"),
             new Fattorino ("Jorge", "Martin"),
