@@ -1,3 +1,5 @@
+//RELAZIONE PER QUESTA CLASSE IN FONDO AL FILE//
+
 import java.util.Scanner;
 
 public class main {
@@ -81,3 +83,19 @@ public class main {
         }
     }
 }
+/*
+Il main interagisce con l'utente tramite la console per gestire 2 automobili.
+Creazione di due automobili
+    -l'utente specifica la capacità massima dei serbatoi delle macchine
+    -si creano due oggetti automobile con consumo predefinito di 0.5 e 0.25 km/l
+Rifornimento
+    -l'utente inserisce il carburante per ciascuna auto. Se supera la capacità massima il serbatoio viene riempito al massimo.
+Opzione 1 (guida)
+    -l'utente specifica i chilometri da percorrere per ogni auto.
+    -i chilometri totali e il livello di carburante vengono aggiornati e poi mostrati.
+Opzione 2 (calcolo media dei chilometri)
+    -l'utente inserisce i chilometri percorsi a novembre
+    -viene calcolata la media di novembre e i chilometri vengono aggiunti al totale.
+-Gestione input
+    -Se l'utente inserisce input non validi, il programma mostra un messaggio d'errore.
+*/
