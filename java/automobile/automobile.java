@@ -1,58 +1,55 @@
-package java.automobile;
-
 public class automobile {
     private double gas;
-    private double resa;
-    private double livello;
+    private double consumo;
+    private double level;
     private double chilometri;
-    private double chilometrinov;
-
-    public automobile(double g, double r, double l, double kmg, double kmn){
+    private double chilometriNov;
+    public automobile (double g, double kml, double l, double k, double kmn){
         this.gas = g;
-        this.resa = r;
-        this.livello = l;
-        this.chilometri = kmg;
-        this.chilometrinov = kmn;
+        this.consumo = kml;
+        this.level = l;
+        this.chilometri = k;
+        this.chilometriNov = kmn;
+    }
+
+    public double getconsumo(){
+        return consumo;
+    }
+
+    public double getlevel(){
+        return level;
     }
 
     public double getgas(){
         return gas;
     }
-    
-    public double getresa(){
-        return resa;
-    }
 
-    public double getlivello(){
-        return livello;
-    }
-
-    public double getchilometri(){
+    public double getkm(){
         return chilometri;
     }
 
-    public double getchilometrinov(){
-        return chilometrinov;
+    public double getkmn(){
+        return chilometriNov;
     }
 
-    public void addgas(double rifornimento){
-        livello += rifornimento;
+    public void addgas(double refill){
+        level += refill;
     }
 
-    public void drive(double km){
+    public void guida(double km){
         double a;
-        a = km / resa;
-        livello -= a;
+        a = km / consumo;
+        level -= a;
         chilometri += km;
     }
 
-    public double mediakm(double km){
+    public double media(double km){
         double avg;
         avg = km / 31;
         return avg;
     }
 
     public void kmtot(){
-        chilometri += chilometrinov;
+        chilometri += chilometriNov;
     }
 }

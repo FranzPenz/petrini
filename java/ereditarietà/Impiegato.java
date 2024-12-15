@@ -5,7 +5,6 @@ public class Impiegato extends Lavoratore{
         super(nome, cognome);
     }
 
-    @Override
     public double stipendio(int giorni){
         return super.stipendio(giorni) + (10 * giorni);
     }
