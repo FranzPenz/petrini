@@ -10,7 +10,7 @@ public class Macchina extends Thread {
     public Macchina(String nome, int distanza) {
         this.nome = nome;
         this.distanza = distanza;
-        this.velocita = new Random().nextInt(50) + 50; // Velocità casuale tra 50 e 100 m/s
+        this.velocita = new Random().nextInt(50) + 50;
         this.percorso = 0;
         this.random = new Random();
     }
@@ -18,14 +18,14 @@ public class Macchina extends Thread {
     @Override
     public void run() {
         while (percorso < distanza) {
-            int avanzamento = velocita + random.nextInt(20) - 10; // Aggiunge una variazione casuale alla velocità
+            int avanzamento = velocita + random.nextInt(20) - 10;
             percorso += avanzamento;
             if (percorso > distanza) {
-                percorso = distanza; // Assicura che non superi la distanza
+                percorso = distanza;
             }
             System.out.println(nome + ": " + percorso + " metri");
             try {
-                Thread.sleep(1000); // Pausa di 1 secondo
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
