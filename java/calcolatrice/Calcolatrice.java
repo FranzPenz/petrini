@@ -1,8 +1,10 @@
 import java.awt.*;
 import javax.swing.*;
+import java.awt.event.*;
+import java.util.*;
 
 
-public class Calcolatrice extends JFrame {
+public class Calcolatrice extends JFrame implements ActionListener{
     protected JPanel pan=new JPanel();
     protected JPanel pan1=new JPanel();
     protected JLabel lab1=new JLabel("Numero 1: ");
@@ -37,5 +39,36 @@ public class Calcolatrice extends JFrame {
         cont.add(pan1);
         cont.add(pan);
         cont.setLayout(new GridLayout(2,1));
+        b1.addActionListener(this);
+        b2.addActionListener(this);
+        b3.addActionListener(this);
+        b4.addActionListener(this);
+        b5.addActionListener(this);
+        b6.addActionListener(this);
+
+    }
+    public void actionPerformed(ActionEvent e){
+        if(e.getSource()==b1){
+            text3.setText(""+(Double.parseDouble(text1.getText())+Double.parseDouble(text2.getText())));
+        }
+        if(e.getSource()==b2){
+            text3.setText(""+(Double.parseDouble(text1.getText())-Double.parseDouble(text2.getText())));
+        }
+        if(e.getSource()==b3){
+            text3.setText(""+(Double.parseDouble(text1.getText())*Double.parseDouble(text2.getText())));
+        }
+        if(e.getSource()==b4){
+            text3.setText(""+(Double.parseDouble(text1.getText())/Double.parseDouble(text2.getText())));
+        }
+        if(e.getSource()==b5){
+            text1.setText(text3.getText());
+            text2.setText("");
+            text3.setText("");
+        }
+        if(e.getSource()==b6){
+            text1.setText("");
+            text2.setText("");
+            text3.setText("");
+        }
     }
 }

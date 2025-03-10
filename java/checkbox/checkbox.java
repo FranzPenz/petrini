@@ -29,11 +29,11 @@ public class checkbox extends JFrame {
 
         
         phone.addItem("+39");
-        phone.addItem("+112");
-        phone.addItem("+76");
-        phone.addItem("+38");
-        phone.addItem("+221");
-        phone.addItem("+20");
+        phone.addItem("+1");
+        phone.addItem("+33");
+        phone.addItem("+49");
+        phone.addItem("+44");
+        phone.addItem("+34");
         p1.add(phone);
         p1.add(new JTextField(20));
 
