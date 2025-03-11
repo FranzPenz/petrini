@@ -1,12 +1,12 @@
 public class EsempioThread implements Runnable {
     private int numeroThread;
-    public EsempioThread(int n) {
-        setNumeroThread(n);
+    public EsempioThread(int c) {
+        setNumeroThread(c);
 
     }
 
-    public void setNumeroThread(int n) {
-        numeroThread=n;
+    public void setNumeroThread(int c) {
+        numeroThread=c;
     }
     
     public int getNumerothread() {
