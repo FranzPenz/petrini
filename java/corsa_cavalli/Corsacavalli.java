@@ -1,18 +1,24 @@
+
+
 import java.util.Random;
 
-public class Macchina extends Thread {
+public class Corsacavalli extends Thread{
     private String nome;
     private int distanza;
     private int velocita;
     private int percorso;
     private Random random;
 
-    public Macchina(String nome, int distanza) {
+    public Corsacavalli(String nome, int distanza) {
         this.nome = nome;
         this.distanza = distanza;
         this.velocita = new Random().nextInt(50) + 50;
         this.percorso = 0;
         this.random = new Random();
+    }
+
+    public String getNome() {
+        return nome;
     }
 
     @Override
