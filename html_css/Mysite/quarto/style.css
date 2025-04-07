@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    text-align: center;
+    padding: 25px;
+    border: 2px solid black;
+}
+.navbar{
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+}
+section{
+    width: 35%;
+    float: left;
+    border: 2px solid black;
+}
+article{
+    width: 45%;
+    float: left;
+    border: 2px solid black;
+    padding: 62.3px;
+}
+aside{
+    width:20%;
+    float: left;
+    border: 2px solid black;
+    display: block;
+    padding: 5px;
+}
+footer{
+    display: block;
+    clear: both;
+    text-align: center;
+    padding: 25px;
+    border: 2px solid black;
+}
+@media screen and (max-width: 600px){
+    aside,section,article{
+        width: 100%;
+    }
+}
