@@ -4,10 +4,7 @@ body{
 table{
     border: 1px solid black;
     font-family: Verdana;
-}
-td{
-    border: 1px solid white;
-    font-family: Verdana;
+    border-collapse: collapse;
 }
 ol{
     list-style-type: square;
@@ -20,4 +17,28 @@ ul{
 h1{
     text-align: center;
     font-family: Verdana;
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: orange;
+}
+th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: red;
+}
+div{
+    background-color: grey;
+}
+#giochi{
+    color: aqua;
+}
+#band{
+    color: lightgreen;
+}
+button{
+    background-color: #333333;
+    color: lightcoral;
+    border-radius: 5px;
 }

@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+h1,h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+pre{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 87, 0);
+}
+a{
+    font-family: 'Courier New', Courier, monospace;
+}
+a:hover{
+    font-family: 'Courier New', Courier, monospace;
+    color: orange;
+}
+a:visited{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
