@@ -1,4 +1,4 @@
-import java.util.Random;
+
 public class Cliente extends Thread {
     private ContoBancario conto;
     
